@@ -1,17 +1,17 @@
-# konversi_suhu
+# Konversi Suhu
 
-A new Flutter project.
+Aplikasi Flutter sederhana untuk mengonversi suhu antara Celsius, Fahrenheit, Kelvin, dan Reamur.
 
-## Getting Started
+## Screenshot
+<p align="center">
+  <img src="src/preview.png" width="300" alt="Preview Aplikasi Gepeng">
+</p>
 
-This project is a starting point for a Flutter application.
+## Deskripsi
+Aplikasi ini memungkinkan pengguna untuk memasukkan suhu dan memilih satuan asal. Aplikasi akan langsung menghitung dan menampilkan hasil konversi ke empat satuan suhu lainnya secara real-time. Desain UI dibuat gepeng (flat) untuk tampilan yang lebih modern.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Cara Menjalankan Project
+1.  Unduh atau clone repository ini.
+2.  Buka terminal di folder project ini.
+3.  Jalankan perintah `flutter pub get`.
+4.  Jalankan perintah `flutter run` untuk melihat hasilnya di emulator.
