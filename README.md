@@ -7,5 +7,5 @@ Nrp     : 3124521043
 
 ## Screenshot
 <p align="center">
-  <img src="src/ss.png" width="300" alt="Preview Aplikasi Gepeng">
+  <img src="src/ss.jpeg" width="300" alt="Preview Aplikasi Gepeng">
 </p
