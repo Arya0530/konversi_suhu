@@ -1,20 +1,13 @@
-# Konversi Suhu
+# 🌡️ Aplikasi Konversi Suhu (Flutter + BLoC/Cubit + Firebase Auth)
 
-# 🌡️ Aplikasi Konversi Suhu (Flutter + BLoC/Cubit)
+Aplikasi Flutter sederhana untuk mengonversi suhu antara **Celsius, Fahrenheit, Kelvin, dan Reamur**, yang sudah terintegrasi dengan fitur Login/Register menggunakan **Firebase Authentication**. Aplikasi ini dibangun dengan menerapkan arsitektur *State Management* **BLoC (menggunakan Cubit)** untuk memisahkan secara tegas antara logika bisnis (perhitungan) dan tampilan antarmuka (UI).
 
-Aplikasi Flutter sederhana untuk mengonversi suhu antara **Celsius, Fahrenheit, Kelvin, dan Reamur**. Aplikasi ini dibangun dengan menerapkan arsitektur *State Management* **BLoC (menggunakan Cubit)** untuk memisahkan secara tegas antara logika bisnis (perhitungan) dan tampilan antarmuka (UI).
+**Nama** : Arya Nugraha  
+**NRP** : 3124521043  
 
-lib/
- ├── main.dart                      # Entry point aplikasi
- └── konversi_suhu/                 
-      ├── konversi_suhu_cubit.dart  # (Orak/Mesin) Berisi variabel data dan rumus konversi.
-      ├── konversi_suhu_page.dart   # (Penghubung) Membungkus View dengan BlocProvider.
-      └── konversi_suhu_view.dart   # (Tampilan) Murni berisi desain UI (warna, tombol, grid).
-
-Nama    : Arya Nugraha 
-Nrp     : 3124521043
-
-## Screenshot
+## Screenshot Aplikasi 📱
 <p align="center">
-  <img src="src/ss.jpeg" width="300" alt="Preview Aplikasi Gepeng">
-</p
+  <img src="src/Login.jpg" width="300" alt="Halaman Login">
+  &nbsp; &nbsp; &nbsp;
+  <img src="src/ss.jpeg" width="300" alt="Halaman Konversi Suhu">
+</p>

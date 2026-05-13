@@ -1,3 +1,7 @@
+plugins {
+    // Tambahan dari modul untuk Firebase:
+    id("com.google.gms.google-services") version "4.4.2" apply false
+}
 allprojects {
     repositories {
         google()

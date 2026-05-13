@@ -7,7 +7,7 @@ class SuhuState {
 
   SuhuState({this.inputSuhu = 10.0, this.satuanAsal = 'Celcius'});
 
-  // Rumus konversi suhu tetap di sini biar rapi
+  // Rumus konversi suhu 
   double getHasil(String target) {
     double celcius = 0;
     switch (satuanAsal) {
@@ -26,7 +26,7 @@ class SuhuState {
   }
 }
 
-// 2. CUBIT: Fungsi untuk ngubah data (State)
+// 2. CUBIT: Fungsi untuk mengubah data (State)
 class KonversiSuhuCubit extends Cubit<SuhuState> {
   KonversiSuhuCubit() : super(SuhuState());
 

@@ -8,7 +8,7 @@ class KonversiSuhuPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Di sinilah mesin (Cubit) dinyalakan dan diberikan ke View
+    
     return BlocProvider(
       create: (context) => KonversiSuhuCubit(),
       child: const KonversiSuhuView(),
